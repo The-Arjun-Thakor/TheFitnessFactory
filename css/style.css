@@ -1,0 +1,755 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    
+}
+/*CSS Reset*/
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+    color: white;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /*border: 3px solid red;*/
+}
+
+
+.left div {
+    line-height: 19px;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.CaliFriends{
+    color:black;
+    border: 3px solid;
+    margin: 0px;
+    border-radius: 32px;
+    padding: 4px;
+    color: black;
+     margin-left: -9px;
+     background-color: lawngreen;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: auto;
+    /*border: 2px solid green;*/
+    padding: 2px;
+}
+
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+    /*border: 3px solid yellow;*/
+}
+
+/*desiging button for try now and buy now */
+.btn1{
+    font-weight: italic;
+    background-color: rgb(160, 255, 17);
+    padding: 4px 14px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn1:hover {
+    color: ivory;
+    background-color: red;
+}
+
+/* desiging navigation bar */
+.navbar {
+    display:flex;
+    background-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    position: fixed;
+    top: 2;
+    z-index: 10000;
+    margin: auto 35px;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    padding: 6px 6px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: red;
+}
+
+.search {
+    float: right;
+    color: chartreuse;
+    padding: 12px 75px;
+}
+
+.navbar input {
+    border: 3px solid greenyellow;
+    border-radius: 15px;
+    padding: 3px 17px;
+    width: 72px;
+}
+/* desiging buttons */
+.btn {
+    font-weight: italic;
+    background-color: rgb(160, 255, 17);
+    padding: 4px 14px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+    color: ivory;
+    background-color: red;
+}
+/* desiging slogan */
+.container1{
+    margin-bottom: -396px;
+    margin-top: 164px;
+    margin-right: 58px;
+    margin-left: 661px;
+    padding: 22px;
+    width:60%;
+    align-items: center;
+}
+
+/* designing slogan texts*/
+.span1{
+    color: #ff8100;
+}
+.span2{
+    color: #ff8100;
+}
+.span3{
+    color: red;
+}
+.h5{
+    color: #fffcf9;
+    display:inline-block;
+    margin: 16px;
+    margin-left: 200px;
+}
+
+/* desiging form */
+.container {
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 38px;
+    margin-top: 220px;
+    margin-right: 115px;
+    margin-left: 115px;
+    padding: 22px;
+    width: 22%;
+    border-radius: 28px;
+    align-items: center;
+}
+
+.form-group input {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+    display: block;
+    width: 75%;
+    padding: 0px;
+    border: 3px solid black;
+    border-radius: 13px;
+    font-size: 18px;
+    margin: 11px auto;
+    height: 1.6em;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.container button {
+    display: block;
+    width: 75%;
+    margin: 27px auto;
+    font-size: 28px
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstsection {
+    margin-top: 58px;
+    height: 357px;
+    margin-top: 58px;
+    height: 357px;
+    background-color: #030303;
+    opacity: 0.8;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 150%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size:30px;
+    font-weight: 700;
+    margin: inherit;
+
+}
+.text-small{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+    font-size:15px;
+    padding: 8px;
+}
+.secright{
+    height: 296px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width: 50%;
+    margin: auto;
+    padding: 2px;
+    
+}
+.thumbnail img {
+    width: 150%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: flex;
+    margin: auto;
+    
+}
+/*desiging marquee for advertising */
+.marquee{
+    display: list-item;
+    background-color: purple;
+    position: sticky;
+    
+    
+}
+.extra{
+    height: 600px;
+    width: 100%;
+}
+/*adding image on the my next background*/
+#box-extra{
+    
+    background: url("../img/bg4.jpg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+/*adding image on my first background*/
+.random{
+    
+    background: url('../img/bg3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+#box-extra1{
+    color: darkblue;
+    
+}
+
+/*scrollbar designing*/ 
+section{
+    padding: 50px;
+
+}
+section header{
+    font-size: 2.5rem;
+    color: #fff;
+}
+section p{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+#scrollpath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+}
+#progressbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    /* height: 100%; */
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    animation: animate 4s linear infinite;
+    /* height: 100%; */
+    z-index: 10;
+}
+
+@keyframes animate{
+    0%,100%{
+        filter:hue-rotate(0deg);
+    }
+    50%{
+        filter:hue-rotate(360deg);
+    }
+}
+
+#progressbar::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    filter: blur(10px);
+}
+#progressbar::after{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    filter: blur(30px);
+}
+
+#iframe{
+    height: 350px;
+
+    /*width: 490px; /* you have to have a size or this method doesn't work */
+    /*height: 430px; /* think about making these max-width instead - might give you some more responsiveness */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make it equal */
+}
+
+#fitness{
+    display: inline-block;
+    margin: auto;
+    margin-left: 166px;
+}
+.hamburger{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    align-items: center;
+    border-radius: 50%;
+    background-color:chartreuse;
+    position: fixed;
+    bottom: 46px;
+    right: 40px;
+    z-index: 10000;
+    transition: 1s;
+}
+.hamburger-toggle{
+    animation: hamburgeropen forwards ease-in-out 1s;
+}
+@keyframes hamburgeropen{
+    0%{
+        bottom: 20px;
+        right: 20px;
+    }
+    100%{
+        height:100%;
+        width:100%;
+        border-radius: 0px;
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        transform: translate(-50%,-50%);
+    }
+}
+.hamburger .line{
+    display: block;
+    height: 5px;
+    width: 46px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(0, 0, 0);
+}
+#click-ham{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*hamburger menu design*/
+.navbar-ham{
+    /*display:flex;*/
+    background-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    position: fixed;
+    /*top: 2;
+    display: block;*/
+    margin: 19px;
+    margin-bottom: 149px;
+    
+    margin-top: 38px;
+    
+}
+
+.navbar-ham li {
+    display: inline-block;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar-ham li a {
+    padding: 6px 6px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar-ham li a:hover,
+.navbar-ham li a.active {
+    color: red;
+}
+
+
+
+
+#container3{
+    width: 100%;
+    height: 330px
+}
+
+#part1 {
+    width: 100%;
+    height: 557px;
+    background-color: #292929
+}
+
+#part2 {
+    width: 100%;
+    height: 138px;
+    background-color: black;
+    position: relative;
+    top: -36px;
+}
+
+#mysiteinfo {
+    width: 15%;
+    height: 278px;
+    position: relative;
+    left: 6%;
+    top: 109px;
+}
+
+#mysite {
+    font-size: 35px;
+    color: #f44336
+}
+
+#mysite:hover {
+    color: #e65100
+}
+
+#title {
+    color: gray;
+    position: relative;
+    top: 7px;
+    font-size: 14.1px;
+}
+
+#detail {
+    color: rgb(170, 167, 167);
+    font-size: 18px;
+    margin-top: 19px;
+}
+
+#explore {
+    width: 14%;
+    height: 344px;
+    position: relative;
+    top: -173px;
+    left: 25%;
+}
+
+#txt1,#txt2,#txt3,#txt4,#txt5 {
+    color: white;
+    font-size: 36px;
+    margin-left: -4px;
+}
+
+.link {
+    display: flex;
+    width: 90px;
+    height: 44px;
+    color: #aaa7a7;
+    background-color: transparent;
+    position: relative;
+    top: 21px;
+}
+
+.link:hover,.link1:hover {
+    color: #e65100
+}
+
+#visit {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -515px;
+    left: 42%
+}
+
+.text {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+#legal {
+    width: 14%;
+    height: 280px;
+    position: relative;
+    top: -800px;
+    left: 59.5%
+}
+
+.link1 {
+    display: flex;
+    width: 153px;
+    height: 40px;
+    color: #aaa7a7;
+    background-color: transparent;
+    /* border-top: 2px solid white; */
+    position: relative;
+    top: -10px;
+    margin-top: 28px;
+    margin-left: -2px;
+}
+
+#subscribe {
+    position: relative;
+    top: -1080px;
+    left: 75%;
+    width: 20%;
+    height: 301px;
+}
+
+#email {
+    color: white;
+    position: relative;
+    top: 12px;
+}
+
+.btn {
+    position: relative;
+}
+
+#txt5 {
+    position: relative;
+    top: 86px;
+}
+
+.social {
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer
+}
+
+#txt6 {
+    position: relative;
+    left: 6%;
+    width: 80%;
+    color: #aaa7a7;
+    font-size: 18px;
+    top: 28px;
+}
+
+.copyright {
+    position: relative;
+    top: 3px
+}
+
+#btn2{
+    margin-top: 12px;
+    top: 27px;
+}
+
+
+.arjun1{
+    width: 200px;
+    height: 180px;
+    font-size: 116px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.arjun_{
+    width: 200px;
+    height: 180px;
+    font-size: 116px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width:1000px) {
+    #companyinfo {
+        width: 20%
+    }
+
+    #sitelink {
+        font-size: 30px
+    }
+
+    #txt5,
+    #txt4 {
+        font-size: 17px
+    }
+
+    #txt5,
+    .social {
+        position: relative;
+        top: -5px
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #companyinfo {
+        position: relative;
+        left: 3%
+    }
+
+    #txt6 {
+        position: relative;
+        left: 3%
+    }
+
+    #txt1,
+    #txt2,
+    #txt3,
+    #txt4,
+    #txt5 {
+        font-size: 15px
+    }
+
+    #explore {
+        position: relative;
+        top: -240px;
+        left: 26%
+    }
+
+    #sitelink {
+        font-size: 25px
+    }
+
+    #detail {
+        font-size: 13px
+    }
+
+    .link {
+        width: 60px
+    }
+
+    #visit {
+        position: relative;
+        top: -520px;
+        left: 37%
+    }
+
+    .text {
+        font-size: 13px
+    }
+
+    #legal {
+        position: relative;
+        top: -800px;
+        left: 54%
+    }
+
+    #subscribe {
+        position: relative;
+        top: -1080px;
+        left: 76%;
+        width: 20%
+    }
+
+    #txt5,
+    .social {
+        position: relative;
+        left: -110%;
+        top: px
+    }
+
+    #email,
+    .btn {
+        position: relative;
+        top: 0px
+    }
+
+    #part1 {
+        height: 250px
+    }
+}
